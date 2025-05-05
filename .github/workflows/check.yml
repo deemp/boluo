@@ -2,7 +2,8 @@ name: Check
 on:
   pull_request:
   push:
-    branches: [master]
+    branches: [master, reproduce-issue]
+  workflow_dispatch:
 
 jobs:
   lints:
