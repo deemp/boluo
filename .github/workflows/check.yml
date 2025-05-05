@@ -44,3 +44,5 @@ jobs:
 
       - name: Nix Flake Check
         run: nix --accept-flake-config --show-trace --log-format raw -L flake check
+      
+      - run: ls /nix/store/gnslizi0l8myb9afx6aa0b0lay35ichq-source
