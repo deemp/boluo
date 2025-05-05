@@ -25,7 +25,6 @@ jobs:
         with:
           name: boluo
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-          useDaemon: false
 
       - name: Show Nix Config
         run: nix config show
